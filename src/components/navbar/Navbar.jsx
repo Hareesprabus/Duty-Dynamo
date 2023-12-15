@@ -44,7 +44,11 @@ function Navbar() {
           <span>Home</span>
           </div>
         </Link>
+        <Link className="link" to="/mygigs">
+          <div class="">
           <span>Find work</span>
+          </div>
+        </Link>
           <span>Find Freelancer</span>
           <span>About us</span>
           <span>Support</span>
