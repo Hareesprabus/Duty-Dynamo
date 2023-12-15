@@ -39,8 +39,16 @@ function Navbar() {
           </Link>
         </div>
         <div className="links">
+        <Link className="link" to="/">
+          <div class="Home">
           <span>Home</span>
+          </div>
+        </Link>
+        <Link className="link" to="/mygigs">
+          <div class="">
           <span>Find work</span>
+          </div>
+        </Link>
           <span>Find Freelancer</span>
           <span>About us</span>
           <span>Support</span>
