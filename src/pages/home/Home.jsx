@@ -5,6 +5,7 @@ import TrustedBy from "../../components/trustedBy/TrustedBy";
 import Slide from "../../components/slide/Slide";
 import CatCard from "../../components/catCard/CatCard";
 import ProjectCard from "../../components/projectCard/ProjectCard";
+
 import { cards, projects } from "../../data";
 
 function Home() {
@@ -19,7 +20,7 @@ function Home() {
       </Slide>
       <div className="features">
         <div className="container">
-          <div className="item">
+          {/*<div className="item">
             <h1>A whole world of freelance talent at your fingertips</h1>
             <div className="title">
               <img src="./img/check.png" alt="" />
@@ -53,13 +54,14 @@ function Home() {
               Find high-quality services at every price point. No hourly rates,
               just project-based pricing.
             </p>
-          </div>
+        </div>*/}
           <div className="item">
-            <video src="./img/video.mp4" controls />
+            <video src="./img/dryrunvideo.mp4" controls />{/*img/video.mp4*/}
           </div>
+          
         </div>
       </div>
-      <div className="explore">
+      {/*<div className="explore">
         <div className="container">
           <h1>Explore the marketplace</h1>
           <div className="items">
@@ -146,7 +148,7 @@ function Home() {
             </div>
           </div>
         </div>
-      </div>
+      </div>*/}
       <div className="features dark">
         <div className="container">
           <div className="item">
