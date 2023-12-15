@@ -9,6 +9,7 @@ import { cards, projects } from "../../data";
 
 function Home() {
   return (
+    
     <div className="home">
       <Featured />
       <TrustedBy />
